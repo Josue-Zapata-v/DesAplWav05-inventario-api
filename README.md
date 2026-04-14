@@ -83,7 +83,8 @@ app.js  →  routes/*.routes.js  →  controllers/*.controller.js
 mkdir inventario-api
 cd inventario-api
 npm init -y
-npm install express mysql2
+npm i express mysql2 morgan cors
+npm install nodemon --save-dev
 ```
 
 ### 2. Habilitar ES Modules
